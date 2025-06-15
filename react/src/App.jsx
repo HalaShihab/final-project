@@ -3,9 +3,9 @@ import { Suspense, lazy } from 'react';
 import Navbar from './components/Navbar';
 
 // Lazy load pages for better performance
-const HomePage = lazy(() => import('./pages/HomePage'));
-const AddRecipePage = lazy(() => import('./pages/AddRecipePage'));
-const RecipeDetailsPage = lazy(() => import('./pages/RecipeDetailsPage'));
+const HomePage = lazy(() => import('./pages/HomePage.jsx'));
+const AddRecipePage = lazy(() => import('./pages/AddRecipePage.jsx'));
+const RecipeDetailsPage = lazy(() => import('./pages/RecipeDetailsPage.jsx'));
 
 // Loading spinner component
 const LoadingSpinner = () => (
