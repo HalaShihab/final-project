@@ -64,7 +64,7 @@ Backend:
 
 Frontend:
 - React
-- TypeScript
+- JavaScript
 - Tailwind CSS
 - Vite (Build tool)
 
